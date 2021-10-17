@@ -1,0 +1,331 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+.header{
+    background-color:black;
+}
+.header-logo{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    
+}
+.header-logo img{
+  width:100px;
+  height: 65px;
+  
+
+}
+.header-menu{
+    display:inline-block;
+    text-align: center;
+    width: 69%;
+}
+.header-menu ul{}
+.header-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    
+}
+.header-menu ul li a{
+    color: white;
+    font-size: 25px;
+}
+
+
+/* dropdown1 */
+.header-menu ul li ul{
+    position: absolute;
+    top: 121%;
+    left: 0;
+   background-color: black; 
+   opacity: 0;
+   visibility: hidden;
+   width: 250px;
+  border-top: 3px solid white;
+  transition: .4s;
+}
+.header-menu ul li:hover ul{
+    
+    opacity: 1;
+    visibility: visible;
+    
+}
+.header-menu ul li ul li{
+    display: block;
+    padding: 10px;
+    text-align: left;
+    
+}
+.header-menu ul li ul li:hover{
+    background-color: white;
+   
+}
+.header-menu ul li ul li a{
+    color:white;
+    transition: none;
+}
+.header-menu ul li ul li:hover a{
+    color: black;
+}
+.banner{
+    background-image: url(img/a0c6042d4612d7adf44692fffac7e082.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+.banner h1{
+    font-weight:bold;
+    font-size: 45px;
+}
+.banner p{
+    font-weight:bolder;
+    font-size: 25px;
+}
+.banner-button1{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right:5px ;
+    
+}
+.banner-button1 a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    transition: .4s;
+}
+.banner-button1 a:hover{
+    background-color: #fff;
+    color: black;
+}
+.banner-button2{
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.banner-button2 a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 33px;
+    border-radius: 15px;
+    background-color:white;
+    color: black;
+    transition: .4s;
+}
+.banner-button2 a:hover{
+    background-color: black;
+    color: white;
+}
+.about-section{
+    text-align: center;
+    background-color: #87A471;
+    width: 100%;
+    padding: 50px;
+}
+.about-heading{
+    text-align: center;
+}
+.about-section h1{
+    color: #E8DFDA;
+    display: inline-block;
+    border-bottom: 3px solid whitesmoke;
+    border-bottom-width: 3px;
+    width: fit-content;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 50px;
+    
+    text-shadow: 2px 2px 8px #E8DFDA;
+    
+}
+.about-info{
+    display: inline-block;
+    width: 600px;
+    padding: 35px;
+    text-align: left;
+    color: whitesmoke;
+    margin-right: 80px;
+  position: relative;
+  top: 70px;
+}
+.about-photo{
+    display: inline-block;
+    
+    width: 300px;
+    height: 300px;
+}
+.about-photo img{
+    width: 300px;
+    height: 300px;
+}
+
+.service-section{
+    text-align: center;
+    background-color: #606A64;
+    color: #E8DFDA;
+}
+.section-title{
+    width: 600px;
+    margin: auto;
+}
+.section-title h1{
+    color: #E8DFDA;
+    display: inline-block;
+    border-bottom: 3px solid whitesmoke;
+    border-bottom-width: 3px;
+    width: fit-content;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 50px;
+    
+    text-shadow: 2px 2px 8px #E8DFDA;
+}
+.section-title h2{
+    font-weight: 700;
+}
+.service-card{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+    margin: 50px;
+    text-align: left;
+    padding: 30px;
+}
+.service-icon{
+    font-size: 40px;
+    color: #00BC9C;
+    display: inline-block;
+    height: 100%;
+    padding-right: 10px;
+    position: relative;
+    top: -90px;
+}
+.card-details{
+    display: inline-block;
+    width: 170px;
+}
+
+.poster{
+    text-align: center;
+    background-color: #87A471;
+   color: whitesmoke;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+}
+.poster p{
+    margin-bottom: 50px;
+}
+.poster1 img{
+    width: 500px;
+    height: 300px;
+}
+.poster1{
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    width: 500px;
+    margin-right: 30px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.poster1 h5{
+    color:#144236 ;
+    margin-top: 10px;
+}
+.poster1 p{
+    color:white ;
+}
+
+.poster-photo img{
+    width: 240px;
+    height: 200px;
+    margin-right: 30px;
+}
+.poster-wrapper{
+    width: 1100px;
+    margin: auto;
+}
+.section{
+    text-align: center;
+    background-color: #5B9776;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.section h3{
+    color: #E8DFDA;
+    margin: auto;
+    border-bottom: 3px solid whitesmoke;
+    border-bottom-width: 3px;
+    width: fit-content;
+    padding-bottom: 15px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.section1{
+    display: inline-block;
+    width: 300px;
+    margin-right: 30px;
+}
+.section1 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.section1 i{
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    transition: .25s;
+}
+.section1 i:hover{
+    color: yellow;
+}
+.contact-section{
+    text-align: center;
+    background-color: #606A64;
+    color: whitesmoke;
+    padding: 100px;
+}
+.contact-section h1{
+    margin-bottom: 15px;
+}
+.contact-button{
+    display: inline-block;
+    margin-top: 15px;
+}
+.contact-button a{
+    background-color: #00BC9C;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    
+    transition: .4s;
+}
+.contact-button a:hover{
+    background-color:#4D6A86;
+    
+}
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding:  15px;
+    
+    font-size: 20px;
+}
+.footer p{
+    margin-top: 10px;
+}
